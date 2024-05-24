@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <center>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <style>
+        form {
+            margin: 20px;
+        }
+    </style>    
+    <link rel="stylesheet" href="/estilos.css" type="text/css">
+   
+<body>
+    <table>
+        <form>
+            <label for="nombre" color="red" > Nombre: </label><br>
+            <input type="text" id="nombre" name="nombre" ><br>
+
+            <label for="apellidos"> Apellidos:</label><br>
+            <input type="text" id="fname" name="apellidos" ><br>
+
+            <p> Tipo de documento </p>
+            <input type="radio" id="cedula" name="tipdocumento" value="Ceduda de ciudadania">
+            <label for="cedula"> Cedula de ciudadania</label><br>
+
+            <input type="radio" id="tarjeta" name="tipdocumento" value="Tarjeta de Identidad">
+            <label for="tarjeta"> Tarjeta de identidad</label><br>
+
+            <input type="radio" id="extrangeria" name="tipdocumento" value="Cedula de extrangeria">
+            <label for="cedula de extrangeria">Cedula de extrangeria </label> <br> <br>
+
+            <label for="numdoc"> Numero de Documento </label><br>
+            <input type="number" id="numdoc" name="numdoc"> <br>
+
+            <label for="telefono"> Telefono </label><br>
+            <input type="number" id="telefono" name="telefono"> <br>
+
+            <label for="direccion"> Direccion </label><br>
+            <input type="text" id="direccion" name="direccion"><br>
+
+            <label for="correo"> Correo </label><br>
+            <input type="text" id="correo" name="correo" value="@"><br> <br>
+
+            <label for="contraseña"> Contraseña</label><br>
+            <input type="text" id="contraseña" name="contraseña"><br>
+
+            <p> Elige tu genero de musica favorita </p>
+                <input type="checkbox" id="genero1" name="genero1" value="Musica Clasica">
+                <label for="genero1"> Música clásica </label><br>
+
+                <input type="checkbox" id="genero2" name="genero2" value="Blues">
+                <label for="genero2"> Blues </label><br>
+
+                <input type="checkbox" id="genero3" name="genero3" value="Jazz">
+                <label for="genero3"> Jazz </label> <br>
+
+                <input type="checkbox" id="genero4" name="genero4" value="El Funk">
+                <label for="genero4"> El Funk </label><br>
+
+                <input type="checkbox" id="genero5" name="genero5" value="Rock and roll">
+                <label for="genero5">Rock and roll </label> <br>
+
+                <input type="checkbox" id="genero6" name="genero6" value="Pop">
+                <label for="genero6"> Pop </label><br>
+
+                <input type="checkbox" id="genero7" name="genero7" value="Rap">
+                <label for="genero7"> Rap </label> <br>
+
+                <input type="checkbox" id="genero8" name="genero8" value="Musica Disco">
+                <label for="genero8"> Música Disco </label><br>
+
+                <input type="checkbox" id="genero9" name="genero9" value=" Reggae">
+                <label for="genero9">  Reggae </label> <br>
+
+                <input type="checkbox" id="genero10" name="genero10" value="Regueton">
+                <label for="genero10"> Reguetón</label><br> <br>
+
+                <input type="submit" type="password" value=" Enviar">
+        </form>
+    </table>
+</body>
+</head>
+</html>

@@ -1,0 +1,25 @@
+input[type=text], input[type=number] {
+  background-color: #D1F2EB ;
+  width:20%;
+  padding: 5px 5px;
+  margin: 6px 0;
+  box-sizing: border-box;
+}
+
+input[type=text], :focus {
+  border: 3px solid #A2D9CE;
+}
+input[type=number], :focus {
+  border: 3px solid #A2D9CE;
+}
+
+input[type=submit]{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ 
