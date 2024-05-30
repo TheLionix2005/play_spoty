@@ -1,0 +1,23 @@
+.navbar_navbar-expand-lg_bg-body-tertiary {
+    width: 200px;
+    background-color: #333;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.spaced {
+    margin-bottom: 50px;
+    /* Ajusta el valor según la cantidad de espacio que necesites */
+}
+
+.card {
+    right: 0px;
+    left: 50px;
+    height: 40px;
+}
+
+.col {
+    width: 350px;
+}
